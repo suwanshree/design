@@ -1998,6 +1998,10 @@ ul.social li a.fa-vimeo {
   background-color: #4c8ab0;
 }
 
+ul.social li a.fa-behance {
+  background-color: #1769ff;
+}
+
 ul.social li a:hover {
   top: -5px;
 }
