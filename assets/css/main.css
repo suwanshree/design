@@ -2579,3 +2579,29 @@ form label {
   color: inherit;
   text-align: left;
 }
+
+.image--hero img,
+.image--portrait img {
+  border-radius: 0 !important;
+}
+
+.image--hero {
+  display: block;
+  width: 100%;
+}
+
+.image--portrait {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Mobile tweaks */
+@media (max-width: 480px) {
+  .image--portrait {
+    aspect-ratio: 1 / 1;
+  }
+}
